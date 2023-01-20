@@ -1,0 +1,11 @@
+@import "./variables";
+
+body {
+  background-color: $french-sky-blue;
+  background-image: $background-img;
+  background-attachment: fixed;
+  background-size: cover;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+}

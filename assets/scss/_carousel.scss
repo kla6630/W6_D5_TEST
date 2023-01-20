@@ -1,0 +1,8 @@
+@import "./variables";
+
+.carousel-inner {
+  border-radius: 5%;
+  box-shadow: 5px 5px 15px 5px $space-cadet;
+  cursor: pointer;
+  scale: 70%;
+}

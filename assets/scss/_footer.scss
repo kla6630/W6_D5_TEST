@@ -1,0 +1,14 @@
+@import "./variables";
+
+footer {
+  height: 100px;
+  background-color: $indigo-dye;
+  border-top: 2px solid $darkest-one;
+  color: $clearest-one;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    display: none;
+  }
+}
