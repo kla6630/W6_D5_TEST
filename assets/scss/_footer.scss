@@ -1,14 +1,24 @@
 @import "./variables";
 
 footer {
-  height: 100px;
+  height: 150px;
   background-color: $indigo-dye;
   border-top: 2px solid $darkest-one;
   color: $clearest-one;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:501px) {
   footer {
-    display: none;
+    height:auto;
+    width:auto;
   }
+}
+
+
+.my_footer_text{
+  color:$french-sky-blue;
+}
+
+.my_footer_text:hover{
+  color:$clearest-one;
 }

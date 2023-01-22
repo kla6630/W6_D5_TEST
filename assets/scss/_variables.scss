@@ -3,7 +3,7 @@
 /* SCSS HEX */
 $indigo-dye: #274060ff;
 $bdazzled-blue: #335c81ff;
-$nav-italian-sky-blue:#4d9ff4;
+$nav-italian-sky-blue: #4d9ff4;
 $french-sky-blue: #65afffff;
 $space-cadet: #1b2845ff;
 $darkest-one: rgb(10, 15, 27);
@@ -69,6 +69,9 @@ $gradient-bottom-left: linear-gradient(
 $gradient-radial: radial-gradient(#274060ff, #335c81ff, #65afffff, #1b2845ff);
 
 /*TEXT FEATURES*/
+
+/*FONTS*/
+$body_font:"Roboto Mono", monospace;
 
 /*h1*/
 $h1_color_personal: $clearest-one;

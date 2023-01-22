@@ -1,8 +1,34 @@
 @import "./variables";
 
-.carousel-inner {
+.my_carousel_card {
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
   border-radius: 5%;
-  box-shadow: 5px 5px 15px 5px $space-cadet;
+  border: solid 2px $space-cadet;
   cursor: pointer;
-  scale: 70%;
+  background-color: $french-sky-blue;
+}
+
+.my_carousel_card h5 {
+  margin: 5%;
+}
+
+.my_carousel_card p {
+  margin: 5%;
+}
+
+.my_carousel_card img {
+  border-radius: 5% 5% 0% 0%;
+}
+
+.my_carousel_card img {
+  border-radius: 5% 5% 0% 0%;
+  background-color: rgba(92, 91, 91, 0);
+}
+
+.card-body {
+  background-color: rgba(255, 255, 255, 0.786);
+  padding: 2%;
+  margin: 2% 5% 5% 5%;
 }
