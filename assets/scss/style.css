@@ -1,7 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-/* SCSS HEX */
-/* SCSS Gradient */
 /*TEXT FEATURES*/
 /*FONTS*/
 /*h1*/
@@ -11,8 +9,6 @@
 /*h5*/
 /*Body Background Image*/
 /*Primo Piano Background Image*/
-/* SCSS HEX */
-/* SCSS Gradient */
 /*TEXT FEATURES*/
 /*FONTS*/
 /*h1*/
@@ -31,8 +27,6 @@ body {
   z-index: 1;
 }
 
-/* SCSS HEX */
-/* SCSS Gradient */
 /*TEXT FEATURES*/
 /*FONTS*/
 /*h1*/
@@ -58,8 +52,6 @@ header {
     background-image: none;
   }
 }
-/* SCSS HEX */
-/* SCSS Gradient */
 /*TEXT FEATURES*/
 /*FONTS*/
 /*h1*/
@@ -117,8 +109,6 @@ nav ul li {
   font-size: 30px;
 }
 
-/* SCSS HEX */
-/* SCSS Gradient */
 /*TEXT FEATURES*/
 /*FONTS*/
 /*h1*/
@@ -150,8 +140,6 @@ nav ul li {
   color: white !important;
 }
 
-/* SCSS HEX */
-/* SCSS Gradient */
 /*TEXT FEATURES*/
 /*FONTS*/
 /*h1*/
@@ -191,6 +179,39 @@ h3 {
   text-shadow: -1px 0 #1b2845, 0 1px #1b2845, 1px 0 #1b2845, 0 -1px #1b2845;
 }
 
+/*TEXT FEATURES*/
+/*FONTS*/
+/*h1*/
+/*h2*/
+/*h3*/
+/*h4*/
+/*h5*/
+/*Body Background Image*/
+/*Primo Piano Background Image*/
+.my_spotlight_card {
+  height: auto;
+  min-width: 270px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border: solid 2px #1b2845;
+  cursor: pointer;
+  background-color: white;
+}
+.my_spotlight_card h5,
+.my_spotlight_card p {
+  margin: 5%;
+}
+.my_spotlight_card img {
+  border-radius: 18px 10px 18px 10px;
+  padding: 20px;
+}
+
+.my_spotlight_card_body {
+  background-color: white;
+  padding: 2%;
+  border-radius: 18px 18px 18px 18px;
+}
+
 .partners_logos_container {
   height: 90px;
   width: 200px;
@@ -209,8 +230,6 @@ h3 {
   scale: 105%;
 }
 
-/* SCSS HEX */
-/* SCSS Gradient */
 /*TEXT FEATURES*/
 /*FONTS*/
 /*h1*/
@@ -223,38 +242,28 @@ h3 {
 .my_carousel_card {
   width: 40%;
   height: auto;
+  min-width: 270px;
   margin: 0 auto;
-  border-radius: 5%;
+  border-radius: 20px;
   border: solid 2px #1b2845;
   cursor: pointer;
   background-color: #65afff;
 }
-
-.my_carousel_card h5 {
-  margin: 5%;
-}
-
+.my_carousel_card h5,
 .my_carousel_card p {
   margin: 5%;
 }
-
 .my_carousel_card img {
-  border-radius: 5% 5% 0% 0%;
-}
-
-.my_carousel_card img {
-  border-radius: 5% 5% 0% 0%;
-  background-color: rgba(92, 91, 91, 0);
+  border-radius: 18px 18px 0% 0%;
+  background-color: #4d9ff4;
 }
 
 .card-body {
-  background-color: rgba(255, 255, 255, 0.786);
+  background-color: white;
   padding: 2%;
-  margin: 2% 5% 5% 5%;
+  border-radius: 0 0 18px 18px;
 }
 
-/* SCSS HEX */
-/* SCSS Gradient */
 /*TEXT FEATURES*/
 /*FONTS*/
 /*h1*/

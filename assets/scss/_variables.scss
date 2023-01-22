@@ -1,6 +1,5 @@
 //COLORS//
 
-/* SCSS HEX */
 $indigo-dye: #274060ff;
 $bdazzled-blue: #335c81ff;
 $nav-italian-sky-blue: #4d9ff4;
@@ -9,69 +8,22 @@ $space-cadet: #1b2845ff;
 $darkest-one: rgb(10, 15, 27);
 $clearest-one: white;
 
-/* SCSS Gradient */
-$gradient-top: linear-gradient(
-  0deg,
-  #274060ff,
-  #335c81ff,
-  #65afffff,
-  #1b2845ff
-);
-$gradient-right: linear-gradient(
-  90deg,
-  #274060ff,
-  #335c81ff,
-  #65afffff,
-  #1b2845ff
-);
-$gradient-bottom: linear-gradient(
-  180deg,
-  #274060ff,
-  #335c81ff,
-  #65afffff,
-  #1b2845ff
-);
-$gradient-left: linear-gradient(
-  270deg,
-  #274060ff,
-  #335c81ff,
-  #65afffff,
-  #1b2845ff
-);
-$gradient-top-right: linear-gradient(
-  45deg,
-  #274060ff,
-  #335c81ff,
-  #65afffff,
-  #1b2845ff
-);
-$gradient-bottom-right: linear-gradient(
-  135deg,
-  #274060ff,
-  #335c81ff,
-  #65afffff,
-  #1b2845ff
-);
-$gradient-top-left: linear-gradient(
-  225deg,
-  #274060ff,
-  #335c81ff,
-  #65afffff,
-  #1b2845ff
-);
-$gradient-bottom-left: linear-gradient(
-  315deg,
-  #274060ff,
-  #335c81ff,
-  #65afffff,
-  #1b2845ff
-);
-$gradient-radial: radial-gradient(#274060ff, #335c81ff, #65afffff, #1b2845ff);
+//DARK MODE COLORS//
+
+$dark-indigo-dye: rgb(67, 96, 39);
+$dark-bdazzled-blue: rgb(51, 129, 129);
+$dark-nav-italian-sky-blue: #acf44d;
+$dark-french-sky-blue: rgb(101, 255, 183);
+$dark-space-cadet: rgb(63, 69, 27);
+$dark-darkest-one: rgb(223, 227, 238);
+$dark-clearest-one: rgb(8, 5, 5);
+
+$current-theme: "light";
 
 /*TEXT FEATURES*/
 
 /*FONTS*/
-$body_font:"Roboto Mono", monospace;
+$body_font: "Roboto Mono", monospace;
 
 /*h1*/
 $h1_color_personal: $clearest-one;

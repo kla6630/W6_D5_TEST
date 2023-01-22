@@ -1,0 +1,39 @@
+@import "./variables";
+
+@mixin dark-mode() {
+  body {
+    background-color: $dark-french-sky-blue;
+  }
+
+  .nav_button {
+    background-color: $dark-space-cadet;
+    color: $dark-french-sky-blue;
+  }
+  .my_carousel_card {
+    border: $dark-space-cadet;
+    background-color: $dark-french-sky-blue;
+    img {
+      background-color: $dark-nav-italian-sky-blue;
+    }
+  }
+
+  .card-body {
+    background-color: $dark-clearest-one;
+  }
+
+  footer {
+    height: 150px;
+    background-color: $dark-indigo-dye;
+    border-top: $dark-darkest-one;
+    color: $dark-clearest-one;
+  }
+  .my_footer_text {
+    color: $dark-french-sky-blue;
+  }
+}
+
+.dark-mode {
+  @include dark-mode();
+}
+
+@include switch-theme();

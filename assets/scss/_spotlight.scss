@@ -1,26 +1,24 @@
 @import "./variables";
-
-.my_carousel_card {
-  width: 40%;
+.my_spotlight_card {
   height: auto;
   min-width: 270px;
   margin: 0 auto;
   border-radius: 20px;
   border: solid 2px $space-cadet;
   cursor: pointer;
-  background-color: $french-sky-blue;
+  background-color: $clearest-one;
   h5,
   p {
     margin: 5%;
   }
   img {
-    border-radius: 18px 18px 0% 0%;
-    background-color: $nav-italian-sky-blue;
+    border-radius: 18px 10px 18px 10px;
+    padding: 20px;
   }
 }
 
-.card-body {
+.my_spotlight_card_body {
   background-color: $clearest-one;
   padding: 2%;
-  border-radius: 0 0 18px 18px;
+  border-radius: 18px 18px 18px 18px;
 }
