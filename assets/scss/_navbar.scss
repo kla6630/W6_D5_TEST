@@ -1,9 +1,9 @@
 @import "./variables";
 
 nav {
-  background-color: $nav-italian-sky-blue;
+  background-color: $my-nav-bg-color;
   display: block;
-  border-bottom: solid 2px $darkest-one;
+  border-bottom: solid 2px $my-border-bottom-color;
   ul {
     padding: 0;
     list-style-type: none;
@@ -19,35 +19,32 @@ nav {
 .my_logo {
   width: 110px;
   height: auto;
-  color: $space-cadet;
 }
 
 .my_nav_link {
-  color: $space-cadet !important;
+  color: $my-nav-icons-text-color !important;
 }
 
 .my_nav_link:hover {
-  color: $clearest-one !important;
+  color: $my-brightest-one !important;
 }
 
 .nav_social_icons {
   margin-left: 4%;
-  color: $space-cadet !important;
+  color: $my-nav-icons-text-color !important;
 }
 
 .nav_social_icons:hover {
-  color: $clearest-one !important;
+  color: $my-brightest-one !important;
   scale: 120%;
 }
 
 @media screen and (max-width: 992px) {
   .nav_social_icons:hover {
     scale: 100%;
-    
   }
 }
 
-.bi-list{
+.bi-list {
   font-size: 30px;
-
 }

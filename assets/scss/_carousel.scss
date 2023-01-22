@@ -6,21 +6,21 @@
   min-width: 270px;
   margin: 0 auto;
   border-radius: 20px;
-  border: solid 2px $space-cadet;
+  border: solid 2px $my-border-bottom-color;
   cursor: pointer;
-  background-color: $french-sky-blue;
+  background-color: $my-carousel-card-photo-bg-color;
   h5,
   p {
     margin: 5%;
   }
   img {
     border-radius: 18px 18px 0% 0%;
-    background-color: $nav-italian-sky-blue;
+    background-color: $my-carousel-card-photo-bg-color;
   }
 }
 
 .card-body {
-  background-color: $clearest-one;
+  background-color: $my-brightest-one;
   padding: 2%;
   border-radius: 0 0 18px 18px;
 }
