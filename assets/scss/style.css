@@ -36,6 +36,70 @@ body {
 /*h5*/
 /*Body Background Image*/
 /*Primo Piano Background Image*/
+.dark-mode body {
+  background-color: rgb(64, 108, 156);
+  background-image: url("../img/bg/wp-dark.jpg");
+}
+.dark-mode nav {
+  background-color: #172e47;
+  border-bottom-color: rgb(78, 126, 230);
+}
+.dark-mode .my_logo,
+.dark-mode .my_nav_link {
+  color: rgb(188, 200, 228);
+}
+.dark-mode .my_nav_link:hover,
+.dark-mode .nav_social_icons:hover {
+  color: black;
+}
+.dark-mode header {
+  background-color: rgb(64, 108, 156);
+  border-bottom-color: rgb(78, 126, 230);
+}
+.dark-mode .my_spotlight_card {
+  border-color: rgb(78, 126, 230);
+  background-color: black;
+}
+.dark-mode .my_spotlight_card_body {
+  background-color: black;
+  color: white;
+}
+.dark-mode .partners_logos_container {
+  border-color: rgb(78, 126, 230);
+  background-color: #172e47;
+}
+.dark-mode .my_carousel_card {
+  background-color: rgb(40, 60, 102);
+  color: white;
+  border-color: rgb(78, 126, 230);
+}
+.dark-mode .my_carousel_card img {
+  background-color: rgb(40, 60, 102);
+}
+.dark-mode .card-body {
+  background-color: black;
+}
+.dark-mode footer {
+  border-top-color: rgb(78, 126, 230);
+  color: black;
+  background-color: rgb(40, 60, 102);
+}
+.dark-mode .my_footer_text {
+  color: rgb(157, 191, 227);
+}
+.dark-mode .my_footer_text:hover {
+  color: black;
+}
+
+/*TEXT FEATURES*/
+/*FONTS*/
+/*h1*/
+/*h2*/
+/*h3*/
+/*h4*/
+/*h5*/
+/*Body Background Image*/
+/*Primo Piano Background Image*/
 header {
   background-color: rgb(157, 191, 227);
   min-height: 300px;
@@ -79,6 +143,7 @@ nav ul li {
 .my_logo {
   width: 110px;
   height: auto;
+  color: rgb(40, 60, 102) !important;
 }
 
 .my_nav_link {
@@ -191,7 +256,8 @@ h1 {
   letter-spacing: 3.4px;
   word-spacing: 6px;
   text-transform: uppercase;
-  text-shadow: -1px 0 rgb(40, 60, 102), 0 1px rgb(40, 60, 102), 1px 0 rgb(40, 60, 102), 0 -1px rgb(40, 60, 102);
+  text-shadow: -1px 0 rgb(40, 60, 102), 0 1px rgb(40, 60, 102),
+    1px 0 rgb(40, 60, 102), 0 -1px rgb(40, 60, 102);
 }
 
 h2 {
@@ -201,7 +267,8 @@ h2 {
   letter-spacing: 3.4px;
   word-spacing: 6px;
   text-transform: uppercase;
-  text-shadow: -1px 0 rgb(40, 60, 102), 0 1px rgb(40, 60, 102), 1px 0 rgb(40, 60, 102), 0 -1px rgb(40, 60, 102);
+  text-shadow: -1px 0 rgb(40, 60, 102), 0 1px rgb(40, 60, 102),
+    1px 0 rgb(40, 60, 102), 0 -1px rgb(40, 60, 102);
 }
 
 h3 {
@@ -211,7 +278,8 @@ h3 {
   letter-spacing: 3.4px;
   word-spacing: 6px;
   text-transform: uppercase;
-  text-shadow: -1px 0 rgb(40, 60, 102), 0 1px rgb(40, 60, 102), 1px 0 rgb(40, 60, 102), 0 -1px rgb(40, 60, 102);
+  text-shadow: -1px 0 rgb(40, 60, 102), 0 1px rgb(40, 60, 102),
+    1px 0 rgb(40, 60, 102), 0 -1px rgb(40, 60, 102);
 }
 
 /*TEXT FEATURES*/
@@ -327,69 +395,4 @@ footer {
 
 .my_footer_text:hover {
   color: white;
-}
-
-/*TEXT FEATURES*/
-/*FONTS*/
-/*h1*/
-/*h2*/
-/*h3*/
-/*h4*/
-/*h5*/
-/*Body Background Image*/
-/*Primo Piano Background Image*/
-.dark-mode body {
-  background-color: rgb(64, 108, 156);
-  background-image: url("../img/bg/wp-dark.jpg");
-  z-index: 10;
-}
-.dark-mode nav {
-  background-color: #172e47;
-  border-bottom-color: rgb(78, 126, 230);
-}
-.dark-mode .my_logo,
-.dark-mode .my_nav_link {
-  color: rgb(188, 200, 228);
-}
-.dark-mode .my_nav_link:hover,
-.dark-mode .nav_social_icons:hover {
-  color: black;
-}
-.dark-mode header {
-  background-color: rgb(64, 108, 156);
-  border-bottom-color: rgb(78, 126, 230);
-}
-.dark-mode .my_spotlight_card {
-  border-color: rgb(78, 126, 230);
-  background-color: black;
-}
-.dark-mode .my_spotlight_card_body {
-  background-color: black;
-  color: white;
-}
-.dark-mode .partners_logos_container {
-  border-color: rgb(78, 126, 230);
-  background-color: #172e47;
-}
-.dark-mode .my_carousel_card {
-  background-color: rgb(40, 60, 102);
-  color: white;
-  border-color: rgb(78, 126, 230);
-}
-.dark-mode .my_carousel_card img {
-  background-color: rgb(40, 60, 102);
-}
-.dark-mode .card-body {
-  background-color: black;
-}
-.dark-mode footer {
-  border-top-color: rgb(78, 126, 230);
-  color: black;
-  background-color: rgb(40, 60, 102);
-}
-.dark-mode .my_footer_text {
-  color: rgb(157, 191, 227);
-}
-.dark-mode .my_footer_text:hover {
-  color: black;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
